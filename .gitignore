@@ -20,3 +20,9 @@ dist/
 .DS_Store
 .vscode/
 .idea/
+
+# Large model files & HuggingFace cache
+.hf_cache/
+*.safetensors
+*.bin
+*.gguf
