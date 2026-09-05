@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.csv.bak
+
+# Environment & Secrets
+.env
+.env.local
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/

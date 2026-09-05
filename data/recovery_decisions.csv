@@ -1,0 +1,501 @@
+transaction_id,customer_id,amount,payment_status,failure_reason,attempt_count,customer_previous_payments,customer_previous_failures,days_since_event,subscription_status,recovery_eligible,recommended_action,transaction_date,risk_score,risk_level,detected_revenue_at_risk,agent_diagnosis,agent_action,agent_confidence,agent_reason
+TX00001,CUST1163,499,success,,2,7,1,4,not_applicable,False,stop,2026-08-29 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00002,CUST1026,9999,failed,authentication_failed,1,13,0,0,active,False,escalate,2026-09-02 07:37:20,50,medium,9999,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00003,CUST1055,999,success,,1,6,5,20,not_applicable,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00004,CUST1139,2499,success,,2,0,0,22,inactive,False,stop,2026-08-11 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00005,CUST1087,1299,success,,2,3,0,12,active,False,stop,2026-08-21 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00006,CUST1091,1999,failed,timeout,4,3,3,2,not_applicable,True,retry,2026-08-31 07:37:20,40,medium,1999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00007,CUST1075,9999,failed,bank_declined,5,6,5,2,active,False,escalate,2026-08-31 07:37:20,55,medium,9999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00008,CUST1169,999,failed,timeout,2,3,3,8,inactive,True,retry,2026-08-25 07:37:20,55,medium,999,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00009,CUST1162,1999,success,,2,6,5,8,not_applicable,False,stop,2026-08-25 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00010,CUST1174,9999,success,,1,7,1,14,inactive,False,stop,2026-08-19 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00011,CUST1069,9999,failed,network_error,3,1,0,26,active,True,retry,2026-08-07 07:37:20,40,medium,9999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00012,CUST1080,2499,success,,1,10,1,20,inactive,False,stop,2026-08-13 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00013,CUST1101,9999,success,,2,4,1,23,not_applicable,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00014,CUST1137,1299,failed,insufficient_funds,5,12,2,7,active,False,escalate,2026-08-26 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00015,CUST1130,3499,success,,1,3,1,20,active,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00016,CUST1174,2499,failed,insufficient_funds,4,14,4,8,not_applicable,False,escalate,2026-08-25 07:37:20,30,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00017,CUST1002,9999,failed,upi_failure,5,8,5,10,active,True,retry,2026-08-23 07:37:20,55,medium,9999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00018,CUST1075,2499,success,,1,8,4,24,active,False,stop,2026-08-09 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00019,CUST1129,499,abandoned,checkout_abandoned,0,9,5,16,not_applicable,True,reminder,2026-08-17 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00020,CUST1050,799,success,,1,0,1,15,active,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00021,CUST1028,1999,abandoned,checkout_abandoned,0,9,1,1,active,True,reminder,2026-09-01 07:37:20,35,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00022,CUST1145,499,success,,2,2,1,4,not_applicable,False,stop,2026-08-29 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00023,CUST1121,4999,success,,2,6,4,24,not_applicable,False,stop,2026-08-09 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00024,CUST1176,999,failed,insufficient_funds,3,14,4,14,active,False,escalate,2026-08-19 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00025,CUST1063,999,success,,1,7,4,7,active,False,stop,2026-08-26 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00026,CUST1018,9999,success,,1,1,1,2,not_applicable,False,stop,2026-08-31 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00027,CUST1060,1299,failed,network_error,5,4,5,29,not_applicable,True,retry,2026-08-04 07:37:20,25,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00028,CUST1147,3499,success,,2,13,1,3,active,False,stop,2026-08-30 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00029,CUST1168,2499,success,,2,14,5,1,not_applicable,False,stop,2026-09-01 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00030,CUST1167,9999,success,,2,10,0,7,active,False,stop,2026-08-26 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00031,CUST1048,4999,success,,2,5,2,14,active,False,stop,2026-08-19 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00032,CUST1019,3499,failed,authentication_failed,1,1,2,17,active,False,escalate,2026-08-16 07:37:20,30,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00033,CUST1023,999,success,,2,15,1,27,inactive,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00034,CUST1015,799,success,,2,8,3,9,inactive,False,stop,2026-08-24 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00035,CUST1178,4999,failed,insufficient_funds,2,6,2,6,active,False,escalate,2026-08-27 07:37:20,50,medium,4999,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00036,CUST1148,4999,success,,2,1,0,18,inactive,False,stop,2026-08-15 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00037,CUST1128,4999,success,,1,5,0,19,active,False,stop,2026-08-14 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00038,CUST1172,999,success,,1,1,2,2,inactive,False,stop,2026-08-31 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00039,CUST1168,7999,failed,bank_declined,3,6,5,22,inactive,False,escalate,2026-08-11 07:37:20,40,medium,7999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00040,CUST1061,1299,success,,2,14,2,29,active,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00041,CUST1002,3499,failed,authentication_failed,1,2,1,16,inactive,False,escalate,2026-08-17 07:37:20,30,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00042,CUST1033,1999,abandoned,checkout_abandoned,0,7,2,9,active,True,reminder,2026-08-24 07:37:20,35,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00043,CUST1112,4999,failed,authentication_failed,5,0,1,29,not_applicable,False,escalate,2026-08-04 07:37:20,15,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00044,CUST1026,799,success,,1,4,2,9,not_applicable,False,stop,2026-08-24 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00045,CUST1053,1999,success,,2,15,2,28,active,False,stop,2026-08-05 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00046,CUST1023,9999,success,,2,1,0,10,active,False,stop,2026-08-23 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00047,CUST1163,1299,success,,2,13,4,0,active,False,stop,2026-09-02 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00048,CUST1019,799,success,,2,4,3,4,active,False,stop,2026-08-29 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00049,CUST1078,1999,abandoned,checkout_abandoned,0,1,1,6,not_applicable,True,reminder,2026-08-27 07:37:20,30,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00050,CUST1063,9999,success,,2,4,1,27,active,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00051,CUST1045,2499,success,,2,13,5,27,not_applicable,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00052,CUST1063,1299,success,,1,12,0,27,inactive,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00053,CUST1056,999,failed,insufficient_funds,3,9,1,7,active,False,escalate,2026-08-26 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00054,CUST1168,999,success,,2,2,2,11,not_applicable,False,stop,2026-08-22 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00055,CUST1130,2499,failed,authentication_failed,3,0,0,28,inactive,False,escalate,2026-08-05 07:37:20,15,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00056,CUST1045,7999,abandoned,checkout_abandoned,0,8,0,3,not_applicable,True,reminder,2026-08-30 07:37:20,45,medium,7999,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00057,CUST1111,1999,failed,bank_declined,4,3,3,28,not_applicable,False,escalate,2026-08-05 07:37:20,25,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00058,CUST1048,1299,success,,2,0,0,11,inactive,False,stop,2026-08-22 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00059,CUST1017,9999,abandoned,checkout_abandoned,0,10,5,27,active,True,reminder,2026-08-06 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00060,CUST1184,1299,success,,2,10,3,22,inactive,False,stop,2026-08-11 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00061,CUST1141,799,success,,2,5,4,18,inactive,False,stop,2026-08-15 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00062,CUST1103,4999,failed,bank_declined,3,6,3,25,not_applicable,False,escalate,2026-08-08 07:37:20,40,medium,4999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00063,CUST1155,9999,success,,2,14,5,6,not_applicable,False,stop,2026-08-27 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00064,CUST1121,799,failed,bank_declined,5,10,0,26,active,False,escalate,2026-08-07 07:37:20,35,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00065,CUST1172,1299,success,,1,4,0,1,active,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00066,CUST1121,7999,failed,timeout,4,13,5,18,active,True,retry,2026-08-15 07:37:20,40,medium,7999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00067,CUST1183,2499,success,,1,4,5,22,active,False,stop,2026-08-11 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00068,CUST1192,499,failed,network_error,2,14,0,17,active,True,retry,2026-08-16 07:37:20,50,medium,499,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00069,CUST1031,3499,success,,2,10,3,19,not_applicable,False,stop,2026-08-14 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00070,CUST1129,2499,failed,authentication_failed,4,5,5,27,inactive,False,escalate,2026-08-06 07:37:20,15,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00071,CUST1115,1299,failed,upi_failure,3,15,5,7,inactive,True,retry,2026-08-26 07:37:20,45,medium,1299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00072,CUST1112,499,failed,network_error,3,10,2,28,not_applicable,True,retry,2026-08-05 07:37:20,35,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00073,CUST1020,799,success,,2,4,5,6,active,False,stop,2026-08-27 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00074,CUST1106,2499,success,,2,13,0,6,inactive,False,stop,2026-08-27 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00075,CUST1099,7999,abandoned,checkout_abandoned,0,0,1,15,active,True,reminder,2026-08-18 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00076,CUST1090,1299,failed,insufficient_funds,5,7,3,7,inactive,False,escalate,2026-08-26 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00077,CUST1111,3499,success,,2,12,5,5,inactive,False,stop,2026-08-28 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00078,CUST1032,7999,success,,2,0,0,20,inactive,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00079,CUST1034,3499,success,,2,12,2,6,inactive,False,stop,2026-08-27 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00080,CUST1083,1999,failed,insufficient_funds,3,13,2,26,active,False,escalate,2026-08-07 07:37:20,10,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00081,CUST1120,299,failed,timeout,3,7,5,2,not_applicable,True,retry,2026-08-31 07:37:20,45,medium,299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00082,CUST1010,299,abandoned,checkout_abandoned,0,6,0,19,active,True,reminder,2026-08-14 07:37:20,20,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00083,CUST1061,799,success,,1,6,3,22,inactive,False,stop,2026-08-11 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00084,CUST1196,1999,success,,1,5,2,3,not_applicable,False,stop,2026-08-30 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00085,CUST1006,1299,failed,insufficient_funds,4,6,0,18,not_applicable,False,escalate,2026-08-15 07:37:20,10,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00086,CUST1160,999,success,,2,3,4,25,active,False,stop,2026-08-08 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00087,CUST1088,4999,success,,2,2,2,0,inactive,False,stop,2026-09-02 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00088,CUST1125,499,success,,2,14,5,4,inactive,False,stop,2026-08-29 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00089,CUST1045,4999,abandoned,checkout_abandoned,0,8,4,25,not_applicable,True,reminder,2026-08-08 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00090,CUST1198,3499,success,,2,10,1,26,active,False,stop,2026-08-07 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00091,CUST1071,3499,success,,2,12,2,0,inactive,False,stop,2026-09-02 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00092,CUST1083,799,success,,2,8,2,8,not_applicable,False,stop,2026-08-25 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00093,CUST1179,1299,failed,authentication_failed,2,2,1,23,inactive,False,escalate,2026-08-10 07:37:20,20,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00094,CUST1125,4999,failed,upi_failure,4,15,3,25,active,True,retry,2026-08-08 07:37:20,40,medium,4999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00095,CUST1023,1299,success,,1,9,5,18,inactive,False,stop,2026-08-15 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00096,CUST1121,4999,success,,2,10,2,22,inactive,False,stop,2026-08-11 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00097,CUST1069,1299,success,,1,6,2,3,not_applicable,False,stop,2026-08-30 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00098,CUST1137,799,success,,2,8,5,18,not_applicable,False,stop,2026-08-15 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00099,CUST1152,1299,abandoned,checkout_abandoned,0,6,2,7,inactive,True,reminder,2026-08-26 07:37:20,35,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00100,CUST1045,1299,success,,1,8,0,1,not_applicable,False,stop,2026-09-01 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00101,CUST1074,799,failed,insufficient_funds,1,0,1,15,inactive,False,escalate,2026-08-18 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00102,CUST1112,1999,success,,1,8,3,3,active,False,stop,2026-08-30 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00103,CUST1102,3499,success,,1,4,1,25,not_applicable,False,stop,2026-08-08 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00104,CUST1077,499,abandoned,checkout_abandoned,0,3,4,24,inactive,True,reminder,2026-08-09 07:37:20,10,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00105,CUST1155,7999,failed,network_error,5,12,3,29,inactive,True,retry,2026-08-04 07:37:20,40,medium,7999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00106,CUST1076,7999,abandoned,checkout_abandoned,0,9,4,19,active,True,reminder,2026-08-14 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00107,CUST1156,499,abandoned,checkout_abandoned,0,6,5,6,inactive,True,reminder,2026-08-27 07:37:20,30,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00108,CUST1169,499,success,,1,2,1,0,inactive,False,stop,2026-09-02 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00109,CUST1115,7999,success,,1,7,2,22,inactive,False,stop,2026-08-11 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00110,CUST1179,3499,success,,1,8,5,18,not_applicable,False,stop,2026-08-15 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00111,CUST1050,2499,success,,1,4,2,26,active,False,stop,2026-08-07 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00112,CUST1018,299,success,,2,9,3,3,inactive,False,stop,2026-08-30 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00113,CUST1176,1299,failed,bank_declined,5,15,3,2,not_applicable,False,escalate,2026-08-31 07:37:20,45,medium,1299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00114,CUST1010,2499,failed,authentication_failed,3,0,0,7,not_applicable,False,escalate,2026-08-26 07:37:20,30,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00115,CUST1147,7999,abandoned,checkout_abandoned,0,8,4,1,active,True,reminder,2026-09-01 07:37:20,40,medium,7999,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00116,CUST1120,4999,failed,bank_declined,2,13,5,26,inactive,True,retry,2026-08-07 07:37:20,55,medium,4999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00117,CUST1023,3499,success,,2,10,5,3,active,False,stop,2026-08-30 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00118,CUST1084,2499,failed,bank_declined,4,1,1,2,inactive,False,escalate,2026-08-31 07:37:20,55,medium,2499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00119,CUST1064,1999,success,,2,0,1,13,active,False,stop,2026-08-20 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00120,CUST1048,4999,success,,2,14,0,6,inactive,False,stop,2026-08-27 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00121,CUST1140,799,abandoned,checkout_abandoned,0,14,5,15,active,True,reminder,2026-08-18 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00122,CUST1007,9999,failed,network_error,2,9,4,0,not_applicable,True,retry,2026-09-02 07:37:20,70,high,9999,Temporary payment failure,retry,0.92,Failure appears temporary and the customer has not exceeded the retry limit.
+TX00123,CUST1104,499,success,,1,14,0,20,active,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00124,CUST1127,1299,success,,2,13,3,15,active,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00125,CUST1116,4999,success,,1,4,0,8,inactive,False,stop,2026-08-25 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00126,CUST1087,4999,success,,1,9,5,9,not_applicable,False,stop,2026-08-24 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00127,CUST1148,9999,success,,1,14,4,15,inactive,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00128,CUST1085,4999,failed,insufficient_funds,4,10,1,22,active,False,escalate,2026-08-11 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00129,CUST1146,2499,success,,2,1,1,23,inactive,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00130,CUST1180,2499,success,,1,15,0,4,not_applicable,False,stop,2026-08-29 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00131,CUST1151,1999,abandoned,checkout_abandoned,0,14,0,16,inactive,True,reminder,2026-08-17 07:37:20,20,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00132,CUST1003,799,success,,1,2,3,25,inactive,False,stop,2026-08-08 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00133,CUST1086,7999,failed,upi_failure,1,10,5,27,not_applicable,True,retry,2026-08-06 07:37:20,55,medium,7999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00134,CUST1097,1999,failed,insufficient_funds,5,1,2,2,active,False,escalate,2026-08-31 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00135,CUST1161,9999,abandoned,checkout_abandoned,0,7,5,2,inactive,True,reminder,2026-08-31 07:37:20,40,medium,9999,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00136,CUST1025,9999,failed,timeout,4,5,5,9,active,True,retry,2026-08-24 07:37:20,55,medium,9999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00137,CUST1011,1999,failed,bank_declined,3,11,3,4,active,False,escalate,2026-08-29 07:37:20,45,medium,1999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00138,CUST1135,2499,failed,network_error,2,5,0,19,inactive,True,retry,2026-08-14 07:37:20,60,medium,2499,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00139,CUST1158,9999,success,,1,7,3,20,inactive,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00140,CUST1117,1299,failed,insufficient_funds,3,5,0,14,inactive,False,escalate,2026-08-19 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00141,CUST1150,1299,failed,insufficient_funds,3,14,2,6,inactive,False,escalate,2026-08-27 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00142,CUST1123,499,success,,2,9,5,9,active,False,stop,2026-08-24 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00143,CUST1168,2499,success,,1,15,2,24,active,False,stop,2026-08-09 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00144,CUST1155,1999,success,,1,8,5,24,not_applicable,False,stop,2026-08-09 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00145,CUST1196,9999,failed,network_error,1,1,1,25,inactive,True,retry,2026-08-08 07:37:20,55,medium,9999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00146,CUST1008,7999,success,,1,2,2,10,not_applicable,False,stop,2026-08-23 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00147,CUST1106,799,success,,2,8,1,8,inactive,False,stop,2026-08-25 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00148,CUST1075,1999,failed,insufficient_funds,1,4,1,27,not_applicable,False,escalate,2026-08-06 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00149,CUST1185,9999,abandoned,checkout_abandoned,0,11,0,25,inactive,True,reminder,2026-08-08 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00150,CUST1003,1299,success,,2,11,5,23,not_applicable,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00151,CUST1067,7999,success,,2,3,1,15,active,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00152,CUST1158,4999,success,,1,2,3,29,not_applicable,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00153,CUST1077,9999,success,,1,1,0,9,inactive,False,stop,2026-08-24 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00154,CUST1029,499,success,,1,12,3,11,not_applicable,False,stop,2026-08-22 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00155,CUST1190,4999,success,,1,13,5,3,inactive,False,stop,2026-08-30 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00156,CUST1157,2499,abandoned,checkout_abandoned,0,8,0,22,inactive,True,reminder,2026-08-11 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00157,CUST1055,3499,success,,1,11,0,21,inactive,False,stop,2026-08-12 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00158,CUST1139,9999,success,,2,8,1,30,active,False,stop,2026-08-03 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00159,CUST1116,499,failed,upi_failure,5,0,0,25,inactive,True,retry,2026-08-08 07:37:20,30,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00160,CUST1062,799,failed,network_error,1,6,4,6,active,True,retry,2026-08-27 07:37:20,60,medium,799,Temporary payment failure,retry,0.92,Failure appears temporary and the customer has not exceeded the retry limit.
+TX00161,CUST1084,799,failed,authentication_failed,1,8,1,4,not_applicable,False,escalate,2026-08-29 07:37:20,40,medium,799,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00162,CUST1064,799,success,,1,4,0,11,active,False,stop,2026-08-22 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00163,CUST1150,1999,success,,2,1,0,23,inactive,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00164,CUST1134,499,failed,insufficient_funds,4,11,4,18,active,False,escalate,2026-08-15 07:37:20,5,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00165,CUST1115,4999,success,,1,9,3,20,active,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00166,CUST1015,3499,failed,insufficient_funds,1,15,5,29,inactive,False,escalate,2026-08-04 07:37:20,30,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00167,CUST1018,499,success,,1,2,1,8,not_applicable,False,stop,2026-08-25 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00168,CUST1162,7999,success,,2,12,4,16,inactive,False,stop,2026-08-17 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00169,CUST1116,4999,failed,timeout,1,6,3,14,active,True,retry,2026-08-19 07:37:20,70,high,4999,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00170,CUST1105,1999,failed,insufficient_funds,4,3,2,13,inactive,False,escalate,2026-08-20 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00171,CUST1170,1299,success,,1,15,0,2,active,False,stop,2026-08-31 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00172,CUST1023,2499,success,,2,4,4,1,not_applicable,False,stop,2026-09-01 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00173,CUST1143,4999,success,,1,13,2,27,not_applicable,False,stop,2026-08-06 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00174,CUST1192,2499,abandoned,checkout_abandoned,0,1,1,19,inactive,True,reminder,2026-08-14 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00175,CUST1090,499,failed,network_error,2,15,1,27,active,True,retry,2026-08-06 07:37:20,50,medium,499,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00176,CUST1089,4999,success,,2,7,3,27,not_applicable,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00177,CUST1196,7999,failed,upi_failure,5,0,1,0,active,True,retry,2026-09-02 07:37:20,55,medium,7999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00178,CUST1069,1299,abandoned,checkout_abandoned,0,11,0,5,active,True,reminder,2026-08-28 07:37:20,35,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00179,CUST1144,9999,success,,1,0,0,23,not_applicable,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00180,CUST1055,2499,success,,2,5,2,9,not_applicable,False,stop,2026-08-24 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00181,CUST1083,7999,failed,timeout,2,5,4,1,not_applicable,True,retry,2026-09-01 07:37:20,70,high,7999,Temporary payment failure,retry,0.92,Failure appears temporary and the customer has not exceeded the retry limit.
+TX00182,CUST1020,1299,success,,2,15,4,14,inactive,False,stop,2026-08-19 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00183,CUST1069,999,failed,timeout,3,13,0,9,not_applicable,True,retry,2026-08-24 07:37:20,50,medium,999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00184,CUST1173,7999,success,,2,1,0,12,not_applicable,False,stop,2026-08-21 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00185,CUST1014,299,success,,1,4,2,9,inactive,False,stop,2026-08-24 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00186,CUST1030,299,success,,2,5,1,12,not_applicable,False,stop,2026-08-21 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00187,CUST1180,999,success,,2,2,3,27,not_applicable,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00188,CUST1010,2499,success,,1,10,4,13,not_applicable,False,stop,2026-08-20 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00189,CUST1103,9999,success,,1,12,0,30,inactive,False,stop,2026-08-03 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00190,CUST1043,7999,success,,2,2,3,27,active,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00191,CUST1062,2499,failed,authentication_failed,1,12,2,23,inactive,False,escalate,2026-08-10 07:37:20,35,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00192,CUST1056,1999,failed,timeout,5,3,4,16,active,True,retry,2026-08-17 07:37:20,25,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00193,CUST1198,1999,success,,1,7,0,4,inactive,False,stop,2026-08-29 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00194,CUST1050,799,failed,upi_failure,1,5,5,15,inactive,True,retry,2026-08-18 07:37:20,45,medium,799,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00195,CUST1193,7999,failed,insufficient_funds,5,10,5,10,active,False,escalate,2026-08-23 07:37:20,30,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00196,CUST1112,499,success,,2,8,4,1,inactive,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00197,CUST1129,499,success,,2,1,0,11,inactive,False,stop,2026-08-22 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00198,CUST1019,9999,abandoned,checkout_abandoned,0,2,3,14,not_applicable,True,reminder,2026-08-19 07:37:20,35,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00199,CUST1141,299,success,,1,10,4,15,not_applicable,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00200,CUST1038,299,success,,2,2,1,1,active,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00201,CUST1181,3499,abandoned,checkout_abandoned,0,5,2,11,inactive,True,reminder,2026-08-22 07:37:20,45,medium,3499,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00202,CUST1099,2499,failed,upi_failure,5,1,2,20,inactive,True,retry,2026-08-13 07:37:20,40,medium,2499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00203,CUST1016,1999,success,,2,9,2,23,not_applicable,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00204,CUST1154,799,success,,1,11,2,30,not_applicable,False,stop,2026-08-03 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00205,CUST1178,9999,success,,1,9,4,12,not_applicable,False,stop,2026-08-21 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00206,CUST1084,799,failed,upi_failure,5,2,3,16,inactive,True,retry,2026-08-17 07:37:20,25,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00207,CUST1004,1999,success,,1,10,3,6,active,False,stop,2026-08-27 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00208,CUST1035,799,success,,1,1,2,10,not_applicable,False,stop,2026-08-23 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00209,CUST1033,7999,success,,1,5,5,24,not_applicable,False,stop,2026-08-09 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00210,CUST1042,3499,success,,2,7,3,19,inactive,False,stop,2026-08-14 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00211,CUST1192,3499,success,,1,9,3,28,active,False,stop,2026-08-05 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00212,CUST1094,9999,abandoned,checkout_abandoned,0,14,3,24,inactive,True,reminder,2026-08-09 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00213,CUST1199,2499,success,,2,5,1,25,not_applicable,False,stop,2026-08-08 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00214,CUST1035,1299,success,,2,11,4,29,active,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00215,CUST1182,4999,abandoned,checkout_abandoned,0,9,0,24,active,True,reminder,2026-08-09 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00216,CUST1069,3499,abandoned,checkout_abandoned,0,4,3,2,active,True,reminder,2026-08-31 07:37:20,35,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00217,CUST1115,1999,abandoned,checkout_abandoned,0,13,0,12,not_applicable,True,reminder,2026-08-21 07:37:20,35,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00218,CUST1095,999,success,,1,11,1,0,inactive,False,stop,2026-09-02 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00219,CUST1025,9999,success,,1,4,0,9,inactive,False,stop,2026-08-24 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00220,CUST1178,799,failed,insufficient_funds,4,0,0,0,inactive,False,escalate,2026-09-02 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00221,CUST1055,799,success,,2,3,2,7,inactive,False,stop,2026-08-26 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00222,CUST1031,299,success,,2,2,0,26,inactive,False,stop,2026-08-07 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00223,CUST1152,4999,success,,1,4,2,13,active,False,stop,2026-08-20 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00224,CUST1157,1999,success,,2,5,5,21,active,False,stop,2026-08-12 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00225,CUST1134,1999,success,,1,12,3,1,not_applicable,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00226,CUST1099,1999,success,,1,11,0,11,active,False,stop,2026-08-22 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00227,CUST1187,9999,failed,authentication_failed,3,4,0,11,not_applicable,False,escalate,2026-08-22 07:37:20,30,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00228,CUST1086,9999,success,,2,15,5,5,active,False,stop,2026-08-28 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00229,CUST1016,3499,success,,1,1,0,28,active,False,stop,2026-08-05 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00230,CUST1080,1299,success,,2,8,0,24,not_applicable,False,stop,2026-08-09 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00231,CUST1048,1299,success,,1,10,2,3,inactive,False,stop,2026-08-30 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00232,CUST1111,2499,failed,insufficient_funds,3,5,3,22,inactive,False,escalate,2026-08-11 07:37:20,15,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00233,CUST1094,4999,success,,1,13,0,13,not_applicable,False,stop,2026-08-20 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00234,CUST1046,4999,success,,1,2,2,21,inactive,False,stop,2026-08-12 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00235,CUST1078,3499,failed,insufficient_funds,2,14,2,14,active,False,escalate,2026-08-19 07:37:20,50,medium,3499,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00236,CUST1186,1999,failed,insufficient_funds,3,1,0,21,not_applicable,False,escalate,2026-08-12 07:37:20,5,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00237,CUST1103,1999,success,,1,0,0,27,not_applicable,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00238,CUST1173,3499,success,,1,7,5,11,inactive,False,stop,2026-08-22 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00239,CUST1098,7999,success,,1,14,2,11,inactive,False,stop,2026-08-22 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00240,CUST1195,499,failed,authentication_failed,3,12,2,20,inactive,False,escalate,2026-08-13 07:37:20,10,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00241,CUST1063,499,success,,1,15,4,12,not_applicable,False,stop,2026-08-21 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00242,CUST1030,1299,failed,upi_failure,4,6,4,9,not_applicable,True,retry,2026-08-24 07:37:20,45,medium,1299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00243,CUST1125,999,success,,1,14,1,28,not_applicable,False,stop,2026-08-05 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00244,CUST1113,499,failed,bank_declined,3,2,2,28,inactive,False,escalate,2026-08-05 07:37:20,30,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00245,CUST1040,9999,success,,2,7,0,6,active,False,stop,2026-08-27 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00246,CUST1060,3499,success,,2,14,4,4,not_applicable,False,stop,2026-08-29 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00247,CUST1022,499,success,,2,13,3,26,not_applicable,False,stop,2026-08-07 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00248,CUST1018,799,abandoned,checkout_abandoned,0,2,3,14,not_applicable,True,reminder,2026-08-19 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00249,CUST1132,1999,success,,1,4,3,16,active,False,stop,2026-08-17 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00250,CUST1031,4999,success,,1,5,2,29,not_applicable,False,stop,2026-08-04 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00251,CUST1057,1999,abandoned,checkout_abandoned,0,9,0,8,active,True,reminder,2026-08-25 07:37:20,35,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00252,CUST1162,4999,success,,2,2,1,18,not_applicable,False,stop,2026-08-15 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00253,CUST1039,799,failed,upi_failure,5,10,4,1,active,True,retry,2026-09-01 07:37:20,45,medium,799,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00254,CUST1020,299,abandoned,checkout_abandoned,0,8,5,6,not_applicable,True,reminder,2026-08-27 07:37:20,30,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00255,CUST1106,7999,failed,insufficient_funds,5,9,5,30,inactive,False,escalate,2026-08-03 07:37:20,15,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00256,CUST1123,999,failed,upi_failure,4,9,3,2,not_applicable,True,retry,2026-08-31 07:37:20,45,medium,999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00257,CUST1015,799,success,,2,14,1,10,not_applicable,False,stop,2026-08-23 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00258,CUST1036,1999,abandoned,checkout_abandoned,0,10,5,27,inactive,True,reminder,2026-08-06 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00259,CUST1102,799,failed,authentication_failed,5,3,2,7,inactive,False,escalate,2026-08-26 07:37:20,20,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00260,CUST1031,1299,success,,1,3,0,9,inactive,False,stop,2026-08-24 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00261,CUST1157,2499,success,,1,10,4,23,inactive,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00262,CUST1048,799,success,,2,15,2,15,active,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00263,CUST1023,2499,success,,1,6,4,11,active,False,stop,2026-08-22 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00264,CUST1012,1299,success,,2,9,4,0,active,False,stop,2026-09-02 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00265,CUST1110,799,abandoned,checkout_abandoned,0,11,3,11,active,True,reminder,2026-08-22 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00266,CUST1102,299,failed,network_error,3,9,0,12,not_applicable,True,retry,2026-08-21 07:37:20,50,medium,299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00267,CUST1115,4999,success,,1,4,0,12,inactive,False,stop,2026-08-21 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00268,CUST1086,4999,abandoned,checkout_abandoned,0,4,1,19,not_applicable,True,reminder,2026-08-14 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00269,CUST1102,4999,success,,1,4,5,10,inactive,False,stop,2026-08-23 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00270,CUST1132,3499,success,,1,10,4,10,active,False,stop,2026-08-23 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00271,CUST1100,7999,failed,bank_declined,5,10,4,26,not_applicable,False,escalate,2026-08-07 07:37:20,40,medium,7999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00272,CUST1136,3499,failed,bank_declined,4,0,1,10,not_applicable,False,escalate,2026-08-23 07:37:20,55,medium,3499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00273,CUST1028,2499,failed,upi_failure,1,15,2,30,not_applicable,True,retry,2026-08-03 07:37:20,60,medium,2499,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00274,CUST1198,7999,failed,upi_failure,1,15,1,16,not_applicable,True,retry,2026-08-17 07:37:20,60,medium,7999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00275,CUST1184,7999,failed,insufficient_funds,2,7,0,18,not_applicable,False,escalate,2026-08-15 07:37:20,35,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00276,CUST1028,999,success,,2,13,1,13,not_applicable,False,stop,2026-08-20 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00277,CUST1052,2499,success,,2,1,2,4,not_applicable,False,stop,2026-08-29 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00278,CUST1053,4999,success,,2,12,2,30,active,False,stop,2026-08-03 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00279,CUST1117,4999,success,,2,8,4,15,active,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00280,CUST1063,1299,failed,network_error,3,9,5,6,not_applicable,True,retry,2026-08-27 07:37:20,45,medium,1299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00281,CUST1180,3499,success,,2,8,2,3,not_applicable,False,stop,2026-08-30 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00282,CUST1173,4999,success,,2,11,1,9,active,False,stop,2026-08-24 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00283,CUST1073,499,success,,2,8,5,15,active,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00284,CUST1051,4999,success,,2,4,0,19,not_applicable,False,stop,2026-08-14 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00285,CUST1150,999,success,,1,7,0,3,inactive,False,stop,2026-08-30 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00286,CUST1084,3499,success,,1,0,0,13,not_applicable,False,stop,2026-08-20 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00287,CUST1121,3499,failed,bank_declined,3,9,5,1,active,False,escalate,2026-09-01 07:37:20,55,medium,3499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00288,CUST1166,7999,success,,1,5,3,28,active,False,stop,2026-08-05 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00289,CUST1009,2499,failed,network_error,3,1,0,9,not_applicable,True,retry,2026-08-24 07:37:20,55,medium,2499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00290,CUST1154,499,abandoned,checkout_abandoned,0,10,2,14,not_applicable,True,reminder,2026-08-19 07:37:20,35,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00291,CUST1139,4999,success,,1,14,2,6,active,False,stop,2026-08-27 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00292,CUST1084,799,failed,upi_failure,3,5,0,23,inactive,True,retry,2026-08-10 07:37:20,35,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00293,CUST1075,7999,failed,network_error,2,12,3,16,inactive,True,retry,2026-08-17 07:37:20,55,medium,7999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00294,CUST1022,2499,failed,network_error,2,15,2,29,active,True,retry,2026-08-04 07:37:20,60,medium,2499,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00295,CUST1001,1299,success,,2,8,2,9,not_applicable,False,stop,2026-08-24 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00296,CUST1185,7999,success,,2,7,0,21,active,False,stop,2026-08-12 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00297,CUST1119,1299,success,,2,3,2,11,not_applicable,False,stop,2026-08-22 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00298,CUST1056,999,abandoned,checkout_abandoned,0,15,1,14,not_applicable,True,reminder,2026-08-19 07:37:20,35,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00299,CUST1155,1999,success,,2,6,1,21,not_applicable,False,stop,2026-08-12 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00300,CUST1020,4999,success,,2,2,0,1,not_applicable,False,stop,2026-09-01 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00301,CUST1129,999,failed,network_error,2,10,4,14,active,True,retry,2026-08-19 07:37:20,60,medium,999,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00302,CUST1174,999,failed,insufficient_funds,1,14,0,14,active,False,escalate,2026-08-19 07:37:20,40,medium,999,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00303,CUST1131,2499,success,,1,14,5,25,inactive,False,stop,2026-08-08 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00304,CUST1185,299,success,,1,6,4,2,active,False,stop,2026-08-31 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00305,CUST1108,1999,failed,authentication_failed,1,2,3,1,inactive,False,escalate,2026-09-01 07:37:20,30,low,0,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00306,CUST1104,799,failed,upi_failure,4,11,3,14,inactive,True,retry,2026-08-19 07:37:20,45,medium,799,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00307,CUST1096,499,failed,upi_failure,5,4,5,27,inactive,True,retry,2026-08-06 07:37:20,25,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00308,CUST1030,799,abandoned,checkout_abandoned,0,12,4,4,not_applicable,True,reminder,2026-08-29 07:37:20,30,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00309,CUST1057,299,failed,bank_declined,4,13,4,12,active,False,escalate,2026-08-21 07:37:20,45,medium,299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00310,CUST1063,3499,success,,2,6,5,24,active,False,stop,2026-08-09 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00311,CUST1008,9999,success,,1,7,1,2,active,False,stop,2026-08-31 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00312,CUST1152,299,success,,1,7,5,1,inactive,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00313,CUST1112,999,success,,1,4,4,9,active,False,stop,2026-08-24 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00314,CUST1187,7999,success,,2,7,2,28,active,False,stop,2026-08-05 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00315,CUST1169,4999,success,,2,8,0,17,not_applicable,False,stop,2026-08-16 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00316,CUST1188,799,failed,insufficient_funds,5,15,0,11,not_applicable,False,escalate,2026-08-22 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00317,CUST1171,2499,failed,bank_declined,4,13,1,9,inactive,False,escalate,2026-08-24 07:37:20,60,medium,2499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00318,CUST1047,4999,success,,1,9,5,4,inactive,False,stop,2026-08-29 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00319,CUST1014,4999,success,,2,4,3,7,inactive,False,stop,2026-08-26 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00320,CUST1052,1999,failed,insufficient_funds,3,2,1,1,inactive,False,escalate,2026-09-01 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00321,CUST1096,9999,failed,timeout,1,6,4,23,not_applicable,True,retry,2026-08-10 07:37:20,55,medium,9999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00322,CUST1143,999,success,,2,9,0,6,active,False,stop,2026-08-27 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00323,CUST1189,499,failed,insufficient_funds,2,6,3,29,active,False,escalate,2026-08-04 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00324,CUST1141,1999,failed,insufficient_funds,4,11,2,8,inactive,False,escalate,2026-08-25 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00325,CUST1131,3499,success,,2,10,1,11,inactive,False,stop,2026-08-22 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00326,CUST1105,299,failed,network_error,2,0,1,17,not_applicable,True,retry,2026-08-16 07:37:20,45,medium,299,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00327,CUST1148,2499,success,,1,10,1,12,not_applicable,False,stop,2026-08-21 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00328,CUST1062,3499,failed,upi_failure,3,8,3,30,not_applicable,True,retry,2026-08-03 07:37:20,40,medium,3499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00329,CUST1164,3499,success,,2,5,1,23,not_applicable,False,stop,2026-08-10 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00330,CUST1125,799,abandoned,checkout_abandoned,0,1,2,1,active,True,reminder,2026-09-01 07:37:20,30,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00331,CUST1171,299,failed,insufficient_funds,2,7,0,22,active,False,escalate,2026-08-11 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00332,CUST1002,999,success,,2,1,2,20,not_applicable,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00333,CUST1157,3499,failed,timeout,1,13,0,0,not_applicable,True,retry,2026-09-02 07:37:20,75,high,3499,Temporary payment failure,retry,0.92,Failure appears temporary and the customer has not exceeded the retry limit.
+TX00334,CUST1184,1299,success,,2,0,1,25,active,False,stop,2026-08-08 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00335,CUST1027,499,success,,1,6,4,16,inactive,False,stop,2026-08-17 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00336,CUST1090,1299,failed,timeout,3,12,3,18,active,True,retry,2026-08-15 07:37:20,30,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00337,CUST1178,999,success,,1,1,0,12,inactive,False,stop,2026-08-21 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00338,CUST1096,4999,success,,1,5,0,15,inactive,False,stop,2026-08-18 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00339,CUST1165,1999,failed,timeout,5,1,0,6,not_applicable,True,retry,2026-08-27 07:37:20,45,medium,1999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00340,CUST1145,3499,success,,1,8,4,18,not_applicable,False,stop,2026-08-15 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00341,CUST1008,799,abandoned,checkout_abandoned,0,10,0,30,active,True,reminder,2026-08-03 07:37:20,20,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00342,CUST1150,799,failed,upi_failure,4,2,2,5,not_applicable,True,retry,2026-08-28 07:37:20,45,medium,799,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00343,CUST1061,7999,failed,insufficient_funds,5,10,3,24,not_applicable,False,escalate,2026-08-09 07:37:20,15,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00344,CUST1035,499,success,,2,1,0,13,active,False,stop,2026-08-20 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00345,CUST1019,1999,failed,authentication_failed,5,12,2,0,not_applicable,False,escalate,2026-09-02 07:37:20,25,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00346,CUST1069,3499,success,,2,12,3,5,not_applicable,False,stop,2026-08-28 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00347,CUST1149,9999,success,,2,7,5,2,active,False,stop,2026-08-31 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00348,CUST1068,799,success,,1,12,2,11,active,False,stop,2026-08-22 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00349,CUST1023,299,abandoned,checkout_abandoned,0,14,2,24,inactive,True,reminder,2026-08-09 07:37:20,20,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00350,CUST1026,799,success,,2,14,4,17,not_applicable,False,stop,2026-08-16 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00351,CUST1104,499,success,,2,2,2,27,inactive,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00352,CUST1003,1299,success,,1,7,4,16,active,False,stop,2026-08-17 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00353,CUST1175,2499,success,,2,9,2,15,active,False,stop,2026-08-18 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00354,CUST1016,799,success,,2,9,3,25,active,False,stop,2026-08-08 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00355,CUST1092,1299,abandoned,checkout_abandoned,0,15,4,19,active,True,reminder,2026-08-14 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00356,CUST1117,499,success,,1,12,2,26,not_applicable,False,stop,2026-08-07 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00357,CUST1097,1999,success,,2,4,2,10,not_applicable,False,stop,2026-08-23 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00358,CUST1177,999,success,,1,12,2,9,not_applicable,False,stop,2026-08-24 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00359,CUST1177,9999,success,,1,10,3,8,inactive,False,stop,2026-08-25 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00360,CUST1093,499,abandoned,checkout_abandoned,0,6,4,17,active,True,reminder,2026-08-16 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00361,CUST1174,4999,success,,2,6,3,25,inactive,False,stop,2026-08-08 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00362,CUST1177,499,failed,insufficient_funds,4,4,5,9,active,False,escalate,2026-08-24 07:37:20,15,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00363,CUST1064,9999,success,,2,12,0,14,not_applicable,False,stop,2026-08-19 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00364,CUST1122,7999,success,,2,1,1,22,not_applicable,False,stop,2026-08-11 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00365,CUST1152,9999,abandoned,checkout_abandoned,0,3,1,21,not_applicable,True,reminder,2026-08-12 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00366,CUST1090,799,failed,timeout,5,12,2,30,inactive,True,retry,2026-08-03 07:37:20,35,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00367,CUST1027,299,success,,1,7,3,11,inactive,False,stop,2026-08-22 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00368,CUST1118,9999,failed,authentication_failed,2,11,0,15,active,False,escalate,2026-08-18 07:37:20,35,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00369,CUST1075,2499,abandoned,checkout_abandoned,0,2,0,26,not_applicable,True,reminder,2026-08-07 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00370,CUST1036,1999,success,,2,6,4,15,inactive,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00371,CUST1121,499,success,,2,10,0,9,active,False,stop,2026-08-24 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00372,CUST1181,499,success,,2,3,1,29,not_applicable,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00373,CUST1062,4999,success,,1,10,4,13,inactive,False,stop,2026-08-20 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00374,CUST1059,2499,failed,network_error,4,12,0,23,not_applicable,True,retry,2026-08-10 07:37:20,45,medium,2499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00375,CUST1050,3499,failed,insufficient_funds,1,6,1,8,not_applicable,False,escalate,2026-08-25 07:37:20,50,medium,3499,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00376,CUST1016,7999,success,,1,11,2,6,inactive,False,stop,2026-08-27 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00377,CUST1029,1299,failed,insufficient_funds,5,10,4,12,not_applicable,False,escalate,2026-08-21 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00378,CUST1100,7999,success,,2,14,4,5,not_applicable,False,stop,2026-08-28 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00379,CUST1180,1299,abandoned,checkout_abandoned,0,2,1,10,active,True,reminder,2026-08-23 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00380,CUST1061,1299,success,,2,4,4,12,inactive,False,stop,2026-08-21 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00381,CUST1152,799,failed,insufficient_funds,2,15,5,17,not_applicable,False,escalate,2026-08-16 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00382,CUST1165,799,failed,insufficient_funds,3,4,1,10,inactive,False,escalate,2026-08-23 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00383,CUST1158,299,abandoned,checkout_abandoned,0,0,1,4,active,True,reminder,2026-08-29 07:37:20,30,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00384,CUST1098,4999,success,,2,13,5,15,inactive,False,stop,2026-08-18 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00385,CUST1181,3499,success,,1,0,0,9,active,False,stop,2026-08-24 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00386,CUST1070,999,success,,1,14,4,23,inactive,False,stop,2026-08-10 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00387,CUST1140,4999,success,,1,8,4,26,inactive,False,stop,2026-08-07 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00388,CUST1138,299,failed,insufficient_funds,5,6,3,3,not_applicable,False,escalate,2026-08-30 07:37:20,20,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00389,CUST1167,999,success,,1,14,2,11,active,False,stop,2026-08-22 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00390,CUST1112,499,failed,network_error,2,11,5,19,not_applicable,True,retry,2026-08-14 07:37:20,45,medium,499,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00391,CUST1109,799,failed,network_error,2,1,2,11,not_applicable,True,retry,2026-08-22 07:37:20,60,medium,799,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00392,CUST1071,7999,success,,2,9,2,18,inactive,False,stop,2026-08-15 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00393,CUST1131,9999,failed,network_error,4,1,1,27,not_applicable,True,retry,2026-08-06 07:37:20,40,medium,9999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00394,CUST1032,799,success,,2,7,5,12,inactive,False,stop,2026-08-21 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00395,CUST1036,7999,failed,upi_failure,4,12,3,2,not_applicable,True,retry,2026-08-31 07:37:20,55,medium,7999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00396,CUST1196,499,success,,2,11,3,30,inactive,False,stop,2026-08-03 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00397,CUST1083,7999,success,,1,14,5,21,not_applicable,False,stop,2026-08-12 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00398,CUST1091,499,failed,insufficient_funds,2,13,1,15,inactive,False,escalate,2026-08-18 07:37:20,25,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00399,CUST1082,1299,success,,1,15,2,28,not_applicable,False,stop,2026-08-05 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00400,CUST1195,299,success,,2,0,0,29,active,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00401,CUST1112,3499,success,,2,6,5,29,active,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00402,CUST1166,1299,success,,2,2,2,8,active,False,stop,2026-08-25 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00403,CUST1095,9999,abandoned,checkout_abandoned,0,5,0,12,not_applicable,True,reminder,2026-08-21 07:37:20,45,medium,9999,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00404,CUST1078,999,success,,1,3,0,6,inactive,False,stop,2026-08-27 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00405,CUST1019,799,failed,authentication_failed,4,0,0,22,inactive,False,escalate,2026-08-11 07:37:20,5,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00406,CUST1030,2499,failed,insufficient_funds,1,7,3,2,not_applicable,False,escalate,2026-08-31 07:37:20,45,medium,2499,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00407,CUST1026,499,success,,2,4,3,24,active,False,stop,2026-08-09 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00408,CUST1164,9999,success,,1,5,3,11,not_applicable,False,stop,2026-08-22 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00409,CUST1054,9999,failed,insufficient_funds,5,14,1,2,active,False,escalate,2026-08-31 07:37:20,35,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00410,CUST1035,499,failed,insufficient_funds,3,13,2,25,active,False,escalate,2026-08-08 07:37:20,10,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00411,CUST1063,1299,failed,network_error,5,9,5,0,not_applicable,True,retry,2026-09-02 07:37:20,45,medium,1299,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00412,CUST1077,999,success,,1,12,2,20,active,False,stop,2026-08-13 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00413,CUST1061,3499,success,,1,15,5,19,active,False,stop,2026-08-14 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00414,CUST1135,299,abandoned,checkout_abandoned,0,10,1,12,not_applicable,True,reminder,2026-08-21 07:37:20,35,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00415,CUST1107,1999,success,,1,15,0,0,not_applicable,False,stop,2026-09-02 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00416,CUST1017,299,success,,1,1,1,16,inactive,False,stop,2026-08-17 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00417,CUST1160,4999,failed,insufficient_funds,4,2,1,8,active,False,escalate,2026-08-25 07:37:20,30,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00418,CUST1079,499,success,,1,4,4,10,inactive,False,stop,2026-08-23 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00419,CUST1150,9999,failed,upi_failure,1,9,5,13,not_applicable,True,retry,2026-08-20 07:37:20,70,high,9999,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00420,CUST1061,299,success,,2,3,3,19,not_applicable,False,stop,2026-08-14 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00421,CUST1014,1299,failed,upi_failure,2,3,0,22,active,True,retry,2026-08-11 07:37:20,45,medium,1299,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00422,CUST1179,299,success,,2,8,1,11,active,False,stop,2026-08-22 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00423,CUST1191,1299,failed,timeout,1,10,3,8,not_applicable,True,retry,2026-08-25 07:37:20,60,medium,1299,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00424,CUST1016,1299,failed,authentication_failed,1,15,3,16,inactive,False,escalate,2026-08-17 07:37:20,20,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00425,CUST1014,3499,abandoned,checkout_abandoned,0,5,2,5,inactive,True,reminder,2026-08-28 07:37:20,45,medium,3499,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00426,CUST1197,499,abandoned,checkout_abandoned,0,3,1,23,not_applicable,True,reminder,2026-08-10 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00427,CUST1000,299,abandoned,checkout_abandoned,0,0,0,1,inactive,True,reminder,2026-09-01 07:37:20,30,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00428,CUST1093,2499,abandoned,checkout_abandoned,0,5,0,17,not_applicable,True,reminder,2026-08-16 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00429,CUST1189,9999,success,,2,7,3,29,not_applicable,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00430,CUST1081,1299,failed,authentication_failed,3,3,4,21,active,False,escalate,2026-08-12 07:37:20,0,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00431,CUST1045,999,failed,timeout,4,2,3,27,inactive,True,retry,2026-08-06 07:37:20,25,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00432,CUST1198,1299,success,,2,0,1,6,inactive,False,stop,2026-08-27 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00433,CUST1144,1299,failed,network_error,4,11,4,15,active,True,retry,2026-08-18 07:37:20,30,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00434,CUST1187,4999,failed,network_error,2,0,1,0,active,True,retry,2026-09-02 07:37:20,70,high,4999,Temporary payment failure,retry,0.92,Failure appears temporary and the customer has not exceeded the retry limit.
+TX00435,CUST1138,1999,failed,upi_failure,1,10,0,24,not_applicable,True,retry,2026-08-09 07:37:20,50,medium,1999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00436,CUST1096,1299,success,,1,13,3,30,active,False,stop,2026-08-03 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00437,CUST1036,1299,success,,1,13,5,28,inactive,False,stop,2026-08-05 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00438,CUST1117,499,failed,authentication_failed,2,12,0,18,not_applicable,False,escalate,2026-08-15 07:37:20,25,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00439,CUST1015,2499,failed,network_error,2,9,2,27,inactive,True,retry,2026-08-06 07:37:20,60,medium,2499,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00440,CUST1100,1999,success,,2,7,0,30,active,False,stop,2026-08-03 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00441,CUST1034,7999,success,,1,5,3,14,inactive,False,stop,2026-08-19 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00442,CUST1104,499,success,,1,14,2,14,inactive,False,stop,2026-08-19 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00443,CUST1030,499,success,,2,1,0,26,inactive,False,stop,2026-08-07 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00444,CUST1037,499,failed,bank_declined,4,1,2,9,inactive,False,escalate,2026-08-24 07:37:20,45,medium,499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00445,CUST1044,299,abandoned,checkout_abandoned,0,14,4,23,not_applicable,True,reminder,2026-08-10 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00446,CUST1063,499,success,,1,3,0,1,active,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00447,CUST1033,999,failed,bank_declined,1,8,0,0,active,True,retry,2026-09-02 07:37:20,65,medium,999,Recoverable bank decline,retry,0.79,Customer has a strong successful payment history.
+TX00448,CUST1050,9999,success,,1,2,2,3,active,False,stop,2026-08-30 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00449,CUST1118,299,success,,2,12,3,0,inactive,False,stop,2026-09-02 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00450,CUST1174,2499,success,,1,5,2,8,inactive,False,stop,2026-08-25 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00451,CUST1038,299,failed,authentication_failed,2,9,3,13,not_applicable,False,escalate,2026-08-20 07:37:20,35,low,0,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00452,CUST1122,299,success,,2,4,3,6,not_applicable,False,stop,2026-08-27 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00453,CUST1134,999,failed,authentication_failed,1,12,5,11,inactive,False,escalate,2026-08-22 07:37:20,35,low,0,Low recovery probability,stop,0.76,Available evidence does not justify another recovery attempt.
+TX00454,CUST1139,3499,success,,2,12,2,5,active,False,stop,2026-08-28 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00455,CUST1081,7999,success,,2,1,1,16,inactive,False,stop,2026-08-17 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00456,CUST1196,7999,abandoned,checkout_abandoned,0,5,0,7,not_applicable,True,reminder,2026-08-26 07:37:20,45,medium,7999,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00457,CUST1061,1299,success,,1,7,4,27,inactive,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00458,CUST1090,799,success,,2,11,4,0,not_applicable,False,stop,2026-09-02 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00459,CUST1179,1999,abandoned,checkout_abandoned,0,4,4,30,active,True,reminder,2026-08-03 07:37:20,10,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00460,CUST1126,4999,success,,2,1,0,1,active,False,stop,2026-09-01 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00461,CUST1154,999,success,,2,0,1,29,not_applicable,False,stop,2026-08-04 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00462,CUST1051,799,success,,1,10,0,0,active,False,stop,2026-09-02 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00463,CUST1150,799,failed,authentication_failed,3,2,2,22,not_applicable,False,escalate,2026-08-11 07:37:20,5,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00464,CUST1101,7999,success,,2,10,1,5,not_applicable,False,stop,2026-08-28 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00465,CUST1111,9999,abandoned,checkout_abandoned,0,10,1,22,not_applicable,True,reminder,2026-08-11 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00466,CUST1177,7999,failed,network_error,5,5,3,9,not_applicable,True,retry,2026-08-24 07:37:20,55,medium,7999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00467,CUST1176,1299,success,,1,12,4,1,active,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00468,CUST1154,1999,abandoned,checkout_abandoned,0,7,5,18,active,True,reminder,2026-08-15 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00469,CUST1127,799,success,,1,7,2,10,active,False,stop,2026-08-23 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00470,CUST1162,499,failed,upi_failure,3,14,0,8,active,True,retry,2026-08-25 07:37:20,50,medium,499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00471,CUST1063,499,success,,1,0,0,12,inactive,False,stop,2026-08-21 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00472,CUST1187,2499,abandoned,checkout_abandoned,0,13,3,28,inactive,True,reminder,2026-08-05 07:37:20,25,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00473,CUST1089,4999,success,,2,7,1,14,active,False,stop,2026-08-19 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00474,CUST1008,1299,success,,2,3,0,10,active,False,stop,2026-08-23 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00475,CUST1096,799,failed,authentication_failed,1,10,4,19,inactive,False,escalate,2026-08-14 07:37:20,20,low,0,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00476,CUST1180,299,success,,1,13,1,1,active,False,stop,2026-09-01 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00477,CUST1084,999,abandoned,checkout_abandoned,0,13,5,17,not_applicable,True,reminder,2026-08-16 07:37:20,15,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00478,CUST1186,4999,success,,2,9,1,3,active,False,stop,2026-08-30 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00479,CUST1100,7999,success,,2,4,0,11,active,False,stop,2026-08-22 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00480,CUST1109,499,success,,2,6,0,0,active,False,stop,2026-09-02 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00481,CUST1043,9999,success,,1,15,0,9,inactive,False,stop,2026-08-24 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00482,CUST1120,3499,abandoned,checkout_abandoned,0,8,0,20,not_applicable,True,reminder,2026-08-13 07:37:20,30,low,0,Stale abandoned checkout,stop,0.82,The abandoned checkout is too old for an immediate recovery attempt.
+TX00483,CUST1099,799,success,,2,11,1,14,active,False,stop,2026-08-19 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00484,CUST1067,3499,success,,1,8,4,1,active,False,stop,2026-09-01 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00485,CUST1192,9999,success,,2,13,4,7,not_applicable,False,stop,2026-08-26 07:37:20,15,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00486,CUST1015,2499,failed,insufficient_funds,5,15,4,28,active,False,escalate,2026-08-05 07:37:20,15,low,0,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00487,CUST1121,1299,success,,1,4,0,30,inactive,False,stop,2026-08-03 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00488,CUST1044,799,abandoned,checkout_abandoned,0,6,1,1,inactive,True,reminder,2026-09-01 07:37:20,35,low,0,Checkout abandonment,reminder,0.88,Recent abandoned checkout with potential purchase intent.
+TX00489,CUST1020,9999,success,,1,8,2,29,not_applicable,False,stop,2026-08-04 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00490,CUST1017,499,success,,2,10,2,16,inactive,False,stop,2026-08-17 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00491,CUST1003,7999,failed,insufficient_funds,1,13,1,4,not_applicable,False,escalate,2026-08-29 07:37:20,50,medium,7999,Insufficient funds,wait,0.91,Immediate repeated retries could create unnecessary payment attempts.
+TX00492,CUST1150,7999,failed,timeout,1,3,2,27,not_applicable,True,retry,2026-08-06 07:37:20,55,medium,7999,Stale recovery opportunity,stop,0.94,The transaction is outside the recovery window.
+TX00493,CUST1088,2499,success,,2,15,0,5,inactive,False,stop,2026-08-28 07:37:20,20,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00494,CUST1103,799,failed,upi_failure,4,1,1,28,inactive,True,retry,2026-08-05 07:37:20,30,low,0,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00495,CUST1176,999,success,,2,8,2,0,inactive,False,stop,2026-09-02 07:37:20,10,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00496,CUST1077,1299,success,,2,3,1,4,inactive,False,stop,2026-08-29 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00497,CUST1190,3499,failed,bank_declined,3,13,4,20,active,False,escalate,2026-08-13 07:37:20,40,medium,3499,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00498,CUST1048,3499,success,,2,15,4,27,inactive,False,stop,2026-08-06 07:37:20,0,low,0,Payment already successful,stop,0.99,No recovery is required.
+TX00499,CUST1014,4999,failed,timeout,3,12,1,24,not_applicable,True,retry,2026-08-09 07:37:20,45,medium,4999,Retry limit reached,stop,0.97,Maximum retry attempts have already been reached.
+TX00500,CUST1145,299,success,,1,1,0,1,inactive,False,stop,2026-09-01 07:37:20,5,low,0,Payment already successful,stop,0.99,No recovery is required.
